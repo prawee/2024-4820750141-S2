@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/auth/local
+Content-Type: application/json
+
+{
+    "identifier": "prawee2",
+    "password": "1p@ssw0rd"
+}
