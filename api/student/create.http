@@ -1,0 +1,12 @@
+
+POST http://localhost:8080/api/students
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzM2NzU2NDU2LCJleHAiOjE3MzkzNDg0NTZ9.kG1AxpUfXiaPQhZkp-KF50Po8a7GRWPzqGtc-Mk2BOM
+Content-Type: application/json
+
+{
+    "data": {
+        "name": "Std1",
+        "mobile": "1234567890",
+        "cardId": "1411111111111"
+    }
+}
